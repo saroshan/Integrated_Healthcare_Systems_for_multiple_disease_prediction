@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Healthcare System</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Bootstrap 4 Template For Software Startups">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="fas fa-hand-holding-medical" src="#" alt="logo"><span class="logo-text"> Integrated<span class="text-alt"> HealthCare</span></span></a></div>    
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	                <div class="top-search-box d-none d-lg-flex">
+		                
+						<h3 style="color: #28b76b;"><i class="fa-solid fa-droplet"></i> Diabetes</h3>
+	                </div>
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+		            </ul><!--//social-list-->
+		            <a href="/index.html" class="btn btn-primary d-none d-lg-flex">Back</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+		    <div class="top-search-box d-lg-none p-3">
+                <form class="search-form">
+		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+		        </form>
+            </div>
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Information</a></li>
+				    
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Gallary</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Another Diseases</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fas fa-first-aid"></i></span>Types</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Type 1 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Type 2 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Gestational Diabetes</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-stethoscope"></i></span>Precausion & Diet</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Primary Prevension</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Secondary Prevention</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Tertiary Prevention</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder me-2"><i class="fas fa-radiation-alt"></i></span>Risk Factor</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Type 1 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">type 2 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Gestational</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder me-2"><i class="fas fa-heartbeat"></i></span>Symptoms</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Type 1 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Type 2 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Gestational</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder me-2"><i class="fas fa-mortar-pestle"></i></span>Treatment</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">Type 1 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">type 2 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Gestational</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-7"><span class="theme-icon-holder me-2"><i class="fas fa-user-md"></i></span>Diagnosis</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1">Type 1 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">type 2 Diabetes</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-3">Gestational</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder me-2"><i class="fas fa-glasses-alt"></i></span>Questions To Ask</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Type 1 & 2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Gestational</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-9"><span class="theme-icon-holder me-2"><i class="fas fa-lightbulb"></i></span>FAQs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-1">Questions</a></li>
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content">
+		    <div class="container">
+			    <article class="docs-article" id="section-1">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-map-signs"></i> Information <span class="docs-time">Last updated:   22-03-2023</span></h1>
+					    <section class="docs-intro">
+						    <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.</p>
+							<p>Over time, having too much glucose in your blood can cause health problems. Although diabetes has no cure, you can take steps to manage your diabetes and stay healthy</p>
+							<p>Sometimes people call diabetes “a touch of sugar” or “borderline diabetes.” These terms suggest that someone doesn’t really have diabetes or has a less serious case, but every case of diabetes is serious</p>
+
+						</section><!--//docs-intro-->
+						
+						
+					
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading" style="color: #198754;">Gallary</h2>
+						<p><Strong>Gallary :</Strong></p>
+						
+						<div class="simplelightbox-gallery row mb-3">
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 4.gif"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 4.gif" alt="" title="Diabetes"/></a>
+							</div>
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 5.gif"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 5.gif" alt="" title="Diabetes"/></a>
+							</div><!--//col-->
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 6.gif"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 6.gif" alt="" title="Diabetes"/></a>
+							</div><!--//col-->
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 7.gif"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 7.gif" alt="" title="Diabetes"/></a>
+							</div><!--//col-->
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 8.gif"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 8.gif" alt="" title="Diabetes"/></a>
+							</div><!--//col-->
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 9.gif"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 9.gif" alt="" title="Diabetes"/></a>
+							</div><!--//col-->
+							
+						</div><!--//gallery-->
+
+						<section class="docs-section" id="item-1-3">
+							<h2 class="section-heading" style="color: #198754;">Another Diseases</h2>
+							<p> Here You Can predict Another Diseases Also : </p>
+							
+							<h5>Disease Example :</h5>
+							<div class="row my-3">
+							<div class="col-md-6 col-12">
+									<ul class="list list-unstyled pl-0">
+										<li><a href="#" class="btn btn-primary"> Alzheimer</a></li>
+										<li><a href="#" class="btn btn-primary"> Brain Tumor</a></li>
+										<li><a href="#" class="btn btn-primary"> Covid-19</a></li>
+	
+										
+									</ul>
+								</div>
+								<div class="col-md-6 col-12">
+									<ul class="list list-unstyled pl-0">
+										<li><a href="#" class="btn btn-primary"> Diabetes</a></li>
+										<li><a href="#" class="btn btn-primary"> Heart Disease</a></li>
+										<li><a href="#" class="btn btn-primary"> Pneumonia</a></li>
+	
+										
+									</ul>
+								</div>
+							</div>
+							
+							
+						</section><!--//section-->
+						
+						
+						
+						
+					</section><!--//section-->
+					
+					
+					
+			    </article>
+			    
+			    <article class="docs-article" id="section-2">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-first-aid"></i> Types</h1>
+					    <section class="docs-intro">
+						    <p><strong>There are three main types of diabetes:</strong></p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-2-1">
+						<h2 class="section-heading" style="color: #198754;">Type 1 Diabetes</h2>
+						<div class="simplelightbox-gallery row mb-3">
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 1.png"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 1.png" alt="" title="Type 1 diabetes"/></a>
+							</div>
+														
+						</div><!--//gallery-->
+						
+						<p><strong>Type 1 diabetes:</strong> This type of diabetes is also known as insulin-dependent diabetes mellitus (IDDM) or juvenile-onset diabetes. It occurs when the body's immune system attacks and destroys the cells in the pancreas that produce insulin, a hormone that regulates blood sugar levels. As a result, people with type 1 diabetes need to take insulin injections or use an insulin pump to manage their blood sugar levels.</p>
+						<p>Type 1 diabetes, once known as juvenile diabetes or insulin-dependent diabetes, is a chronic condition. In this condition, the pancreas makes little or no insulin. Insulin is a hormone the body uses to allow sugar (glucose) to enter cells to produce energy.</p>
+						<p>Different factors, such as genetics and some viruses, may cause type 1 diabetes. Although type 1 diabetes usually appears during childhood or adolescence, it can develop in adults.</p>
+						<p>Even after a lot of research, type 1 diabetes has no cure. Treatment is directed toward managing the amount of sugar in the blood using insulin, diet and lifestyle to prevent complications.</p>
+
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading" style="color: #198754;">Type 2 Diabetes</h2>
+						<div class="simplelightbox-gallery row mb-3">
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 2.jpg"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 2.jpg" alt="" title="Type 2 diabetes"/></a>
+							</div>
+														
+						</div><!--//gallery-->
+						<p><strong>Type 2 diabetes:</strong> This is the most common type of diabetes, accounting for around 90% of all cases. It occurs when the body becomes resistant to insulin, or when the pancreas doesn't produce enough insulin to meet the body's needs. Type 2 diabetes is often linked to lifestyle factors such as obesity, lack of exercise, and poor diet.</p>
+						<p>Type 2 diabetes is a condition that happens because of a problem in the way the body regulates and uses sugar as a fuel. That sugar also is called glucose. This long-term condition results in too much sugar circulating in the blood. Eventually, high blood sugar levels can lead to disorders of the circulatory, nervous and immune systems.</p>
+						<p>In type 2 diabetes, there are primarily two problems. The pancreas does not produce enough insulin — a hormone that regulates the movement of sugar into the cells. And cells respond poorly to insulin and take in less sugar.</p>
+						<p>Type 2 diabetes used to be known as adult-onset diabetes, but both type 1 and type 2 diabetes can begin during childhood and adulthood. Type 2 is more common in older adults. But the increase in the number of children with obesity has led to more cases of type 2 diabetes in younger people.</p>
+						<p>There's no cure for type 2 diabetes. Losing weight, eating well and exercising can help manage the disease. If diet and exercise aren't enough to control blood sugar, diabetes medications or insulin therapy may be recommended</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-3">
+						<h2 class="section-heading" style="color: #198754;">Gestational diabetes:</h2>
+						<div class="simplelightbox-gallery row mb-3">
+							<div class="col-12 col-md-4 mb-3">
+						        <a href="/assets/images/Diabetes 3.webp"><img class="figure-img img-fluid shadow rounded" src="/assets/images/Diabetes 3.webp" alt="" title="Gestational Diabetes"/></a>
+							</div>
+														
+						</div><!--//gallery-->
+						<p><strong>Gestational diabetes:</strong>This type of diabetes occurs during pregnancy and usually goes away after the baby is born. It can develop when the hormones produced during pregnancy make it harder for the body to use insulin effectively. Women who have gestational diabetes are at increased risk of developing type 2 diabetes later in life.</p>
+						<p>Gestational diabetes is diabetes diagnosed for the first time during pregnancy (gestation). Like other types of diabetes, gestational diabetes affects how your cells use sugar (glucose). Gestational diabetes causes high blood sugar that can affect your pregnancy and your baby's health</p>
+						<p>While any pregnancy complication is concerning, there's good news. During pregnancy you can help control gestational diabetes by eating healthy foods, exercising and, if necessary, taking medication. Controlling blood sugar can keep you and your baby healthy and prevent a difficult delivery</p>
+						<p>If you have gestational diabetes during pregnancy, generally your blood sugar returns to its usual level soon after delivery. But if you've had gestational diabetes, you have a higher risk of getting type 2 diabetes. You'll need to be tested for changes in blood sugar more often</p>
+
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-stethoscope"></i> Precausion & Diet</h1>
+					    <section class="docs-intro">
+						    <p>There's no known way to prevent type 1 diabetes. But researchers are working on preventing the disease or further damage of the islet cells in people who are newly diagnosed.</p>
+							<p>Ask your provider if you might be eligible for one of these clinical trials. It is important to carefully weigh the risks and benefits of any treatment available in a trial.</p>
+
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-3-1">
+						<h2 class="section-heading" style="color: #198754;">Primary Prevention</h2>
+						<p>Strategies for primary prevention must be started early in life, because when the earlier process of beta cell autoimmunity is initiated, the progression to T1D accelerates significantly . The POInT study, an investigator-initiated, randomized, placebo-controlled, double-blind, primary prevention trial has been started through a network of collaborating clinical study centers from European countries in Belgium, Germany, Poland, the United Kingdom, and Sweden. This study seeks to determine whether daily administration of oral insulin, from the age of 4–7 months until the age of 36 months to children with elevated genetic risk for T1D, reduces the incidence of beta cell autoantibodies and diabetes </p>
+						<p>Due to the potential role of infections in the pathogenesis of T1D, the opportunity to administer a vaccine against viruses associated to T1D is being explored. In particular, the Juvenile Diabetes Research Foundation (JDRF) is now funding research in this field, likely offering promising perspectives in the near future</p>
+						<p>Under development are not only viral vaccines, but also vaccines inducing immune tolerance to beta cell antigens . Neoepitopes are very important because they could be an alternative antigenic target for T1D tolerogenic vaccines.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-2">
+						<h2 class="section-heading" style="color: #198754;">Secondary Prevention</h2>
+						<p>Strategies for secondary prevention apply to individuals with multiple autoantibodies (at least two), with or without evidence of beta cell dysfunction. Islet autoantibodies currently represent a relevant approach in the prediction of clinical T1D. The number of autoantibodies, the age of onset, and the combination of these could be highly predictive of the progression to clinical T1D.</p>
+						<p>Recent evidence remarks how post translational modifications (PTM) of self-antigens as oxidation , glycosylation , citrullination, and deamination supply neoepitopes that are able to breach immune tolerance in T1D. Strollo et al. demonstrated a new autoantibody in most of T1D individuals or prediabetic children .</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading" style="color: #198754;">Tertiary Prevention</h2>
+						<p>Strategies to preserve beta cell mass and/or to prolong the remission phase after T1D onset are of relevant importance, because beta cell mass rapidly declines during the first 1–2 years or following the onset of T1D; these strategies could also allow us to avoid or delay the complications of T1D</p>
+						<p>In order to understand the immune mechanisms underlying the destruction of beta cell mass, it is key to try to halt autoimmunity and to preserve beta cell mass with the hope of eventually curing T1D. Previous pilot, randomized, placebo-controlled, single-masked clinical trial was performed with the aim to characterize the tertiary prevention strategies. Results from this study have shown that anti-thymocyte globulin ATG given at low dose (2.5 mg/kg) combined with the administration of 6 mg subcutaneously every 2 weeks for six doses of pegylated granulocyte colony-stimulating factor GCSF in individuals with T1D (duration 4–24 months) is able to preserve C-peptide</p>
+						<p></p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-4">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-radiation-alt"></i> Risk Factor</h1>
+					    <section class="docs-intro">
+						    <p>.</p>
+							<p>.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-4-1">
+						<h2 class="section-heading" style="color: #198754;">Type 1 diabetes</h2>
+						<p><strong>Some factors that can raise your risk for type 1 diabetes include:</strong></p>
+						<ul>
+							<li><strong>Family history.</strong> Anyone with a parent or sibling with type 1 diabetes has a slightly higher risk of developing the condition.</li>
+							<li><strong>Genetics.</strong> Having certain genes increases the risk of developing type 1 diabetes.</li>
+							<li><strong>Geography</strong> The number of people who have type 1 diabetes tends to be higher as you travel away from the equator.</li>
+							<li><strong>Age</strong> Type 1 diabetes can appear at any age, but it appears at two noticeable peaks. The first peak occurs in children between 4 and 7 years old. The second is in children between 10 and 14 years old.</li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-2">
+						<h2 class="section-heading" style="color: #198754;">Type 2 Diabetes</h2>
+						<p><strong>Factors that may increase the risk of type 2 diabetes include:</strong></p>
+						<ul>
+							<li><strong>Weight</strong>  Being overweight or obese is a main risk.</li>
+							<li><strong>Fat distribution.</strong> Storing fat mainly in the abdomen — rather than the hips and thighs — indicates a greater risk. The risk of type 2 diabetes is higher in men with a waist circumference above 40 inches (101.6 centimeters) and in women with a waist measurement above 35 inches (88.9 centimeters).</li>
+							<li><strong>Inactivity</strong>  The less active a person is, the greater the risk. Physical activity helps control weight, uses up glucose as energy and makes cells more sensitive to insulin.</li>
+							<li><strong>Family history.</strong> An individual's risk of type 2 diabetes increases if a parent or sibling has type 2 diabetes.</li>
+							<li><strong>Race and ethnicity.</strong> Although it's unclear why, people of certain races and ethnicities — including Black, Hispanic, Native American and Asian people, and Pacific Islanders — are more likely to develop type 2 diabetes than white people are.</li>
+							<li><strong>Blood lipid levels.</strong> An increased risk is associated with low levels of high-density lipoprotein (HDL) cholesterol — the "good" cholesterol — and high levels of triglycerides.</li>
+							<li><strong>Age</strong> The risk of type 2 diabetes increases with age, especially after age 35.</li>
+							<li><strong>Prediabetes</strong> Prediabetes is a condition in which the blood sugar level is higher than normal, but not high enough to be classified as diabetes. Left untreated, prediabetes often progresses to type 2 diabetes</li>
+							<li><strong>Pregnancy-related risks.</strong> The risk of developing type 2 diabetes is higher in people who had gestational diabetes when they were pregnant and in those who gave birth to a baby weighing more than 9 pounds (4 kilograms).</li>
+							<li><strong>Polycystic ovary syndrome.</strong> Having polycystic ovary syndrome — a condition characterized by irregular menstrual periods, excess hair growth and obesity — increases the risk of diabetes.</li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-3">
+						<h2 class="section-heading" style="color: #198754;">Gestational Diabetes</h2>
+						<p><strong>Risk factors for gestational diabetes include:</strong></p>
+						<ul>
+							<li>Being overweight or obese</li>
+							<li>Not being physically active</li>
+							<li>Having prediabetes</li>
+							<li>Having had gestational diabetes during a previous pregnancy</li>
+							<li>Having polycystic ovary syndrome</li>
+							<li>Having an immediate family member with diabetes</li>
+							<li>Having previously delivered a baby weighing more than 9 pounds (4.1 kilograms)</li>
+							<li>Being of a certain race or ethnicity, such as Black, Hispanic, American Indian and Asian American</li>
+						</ul>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-5">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-heartbeat"></i> Symptoms</h1>
+					    <section class="docs-intro">
+						    <p>.</p>
+							<p>.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-5-1">
+						<h2 class="section-heading" style="color: #198754;">Type 1 Diabetes</h2>
+						<p><strong>Type 1 diabetes symptoms can appear suddenly and may include:</strong></p>
+						<ul>
+							<li>Feeling more thirsty than usual</li>
+							<li>Urinating a lot</li>
+							<li>Bed-wetting in children who have never wet the bed during the night</li>
+							<li>Feeling very hungry</li>
+							<li>Losing weight without trying</li>
+							<li>Feeling irritable or having other mood changes</li>
+							<li>Feeling tired and weak</li>
+							<li>Having blurry vision</li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading" style="color: #198754;">Type 2 Diabetes</h2>
+						<p><strong>Symptoms of type 2 diabetes often develop slowly. In fact, you can be living with type 2 diabetes for years and not know it. When symptoms are present, they may include:</strong></p>
+						<ul>
+							<li>Increased thirst.</li>
+							<li>Frequent urination.</li>
+							<li>Increased hunger</li>
+							<li>Unintended weight loss</li>
+							<li>Fatigue</li>
+							<li>Blurred vision.</li>
+							<li>Slow-healing sores</li>
+							<li>Frequent infections</li>
+							<li>Numbness or tingling in the hands or feet.</li>
+							<li>Areas of darkened skin, usually in the armpits and neck.</li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-3">
+							<h2 class="section-heading" style="color: #198754;">Gestational Diabetes</h2>
+						<p>Most of the time, gestational diabetes doesn't cause noticeable signs or symptoms. Increased thirst and more-frequent urination are possible symptoms</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+		        <article class="docs-article" id="section-6">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-mortar-pestle"></i> Treatment</h1>
+					    <section class="docs-intro">
+						    <p>.</p>
+							<p>.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-6-1">
+						<h2 class="section-heading" style="color: #198754;">Type 1 Diabetes</h2>
+						<p><strong>Treatment for type 1 diabetes includes:</strong></p>
+						<ul>
+							<li>Taking insulin</li>
+							<li>Counting carbohydrates, fats and protein</li>
+							<li>Monitoring blood sugar often</li>
+							<li>Eating healthy foods</li>
+							<li>Exercising regularly and keeping a healthy weight</li>
+						</ul>
+						<p>The goal is to keep the blood sugar level as close to normal as possible to delay or prevent complications. Generally, the goal is to keep the daytime blood sugar levels before meals between 80 and 130 mg/dL (4.44 to 7.2 mmol/L). After-meal numbers should be no higher than 180 mg/dL (10 mmol/L) two hours after eating.</p>
+						<p><strong>Insulin and other medications</strong></p>
+						<p>Anyone who has type 1 diabetes needs insulin therapy throughout their life.</p>
+						<p><strong>There are many types of insulin, including:</strong></p>
+						<ul>
+							<li><strong>Short-acting insulin.</strong> Sometimes called regular insulin, this type starts working around 30 minutes after injection. It reaches peak effect at 90 to 120 minutes and lasts about 4 to 6 hours. Examples are Humulin R, Novolin R and Afrezza.</li>
+							<li><strong>Rapid-acting insulin.</strong> This type of insulin starts working within 15 minutes. It reaches peak effect at 60 minutes and lasts about 4 hours. This type is often used 15 to 20 minutes before meals. Examples are glulisine (Apidra), lispro (Humalog, Admelog and Lyumjev) and aspart (Novolog and FiAsp)</li>
+							<li><strong>Intermediate-acting insulin.</strong> Also called NPH insulin, this type of insulin starts working in about 1 to 3 hours. It reaches peak effect at 6 to 8 hours and lasts 12 to 24 hours. Examples are insulin NPH (Novolin N, Humulin N).</li>
+							<li><strong>Long- and ultra-long-acting insulin.</strong> This type of insulin may provide coverage for as long as 14 to 40 hours. Examples are glargine (Lantus, Toujeo Solostar, Basaglar), detemir (Levemir) and degludec (Tresiba).</li>
+
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-6-2">
+						<h2 class="section-heading" style="color: #198754;">Type 2 Diabetes</h2>
+						<p><strong>Management of type 2 diabetes includes:</strong></p>
+						<ul>
+							<li>Healthy eating.</li>
+							<li>Regular exercise.</li>
+							<li>Weight loss.</li>
+							<li>Possibly, diabetes medication or insulin therapy.</li>
+							<li>Blood sugar monitoring.</li>
+						</ul>
+						<p>These steps make it more likely that blood sugar will stay in a healthy range. And they may help to delay or prevent complications.</p>
+						<h3 style="color: rgb(51, 47, 47);"><strong>Healthy eating</strong></h3>
+						<p><strong>There's no specific diabetes diet. However, it's important to center your diet around:</strong></p>
+						<ul>
+							<li>A regular schedule for meals and healthy snacks</li>
+							<li>Smaller portion sizes.</li>
+							<li>More high-fiber foods, such as fruits, nonstarchy vegetables and whole grains.</li>
+							<li>Fewer refined grains, starchy vegetables and sweets</li>
+							<li>Modest servings of low-fat dairy, low-fat meats and fish</li>
+							<li>Healthy cooking oils, such as olive oil or canola oil</li>
+							<li>Fewer calories.</li>
+						</ul>
+						<p>Your health care provider may recommend seeing a registered dietitian, who can help you:</p>
+						<ul>
+							<li>Identify healthy food choices.</li>
+							<li>Plan well-balanced, nutritional meals.</li>
+							<li>Develop new habits and address barriers to changing habits.</li>
+							<li>Monitor carbohydrate intake to keep your blood sugar levels more stable.</li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-6-3">
+							<h2 class="section-heading" style="color: #198754;">Gestational Diabetes</h2>
+						<p><strong>Treatment for gestational diabetes includes:</strong></p>
+						<ul>
+							<li>Lifestyle changes</li>
+							<li>Blood sugar monitoring</li>
+							<li>Medication, if necessary</li>
+						</ul>
+						<p>Managing your blood sugar levels helps keep you and your baby healthy. Close management can also help you avoid complications during pregnancy and delivery.</p>
+						<h3 style="color: rgb(49, 45, 45);"><strong>Lifestyle changes</strong></h3>
+						<p>Your lifestyle — how you eat and move — is an important part of keeping your blood sugar levels in a healthy range. Health care providers usually don't advise losing weight during pregnancy — your body is working hard to support your growing baby. But your health care provider can help you set weight gain goals based on your weight before pregnancy.</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-7">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-user-md"></i> Diagnosis</h1>
+					    <section class="docs-intro">
+						    <p>.</p>
+							<p>.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-7-1">
+						<h2 class="section-heading" style="color: #198754;">Type 1 Diagnosis</h2>
+						<p><strong>Diagnostic tests include:</strong></p>
+						<ul>
+							<li><strong>Glycated hemoglobin (A1C) test.</strong> This blood test shows your average blood sugar level for the past 2 to 3 months. It measures the amount of blood sugar attached to the oxygen-carrying protein in red blood cells (hemoglobin). The higher the blood sugar levels, the more hemoglobin you'll have with sugar attached. An A1C level of 6.5% or higher on two separate tests means you have diabetes.</li>
+
+						</ul>
+						<p>If the A1C test isn't available, or if you have certain conditions that can make the A1C test inaccurate — such as pregnancy or an uncommon form of hemoglobin (hemoglobin variant) — your provider may use these tests:</p>
+						<ul>
+							<li><strong>Random blood sugar test.</strong> A blood sample will be taken at a random time and may be confirmed by additional tests. Blood sugar values are expressed in milligrams per deciliter (mg/dL) or millimoles per liter (mmol/L). No matter when you last ate, a random blood sugar level of 200 mg/dL (11.1 mmol/L) or higher suggests diabetes.</li>
+							<li><strong>Fasting blood sugar test.</strong> A blood sample will be taken after you don't eat (fast) overnight. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is healthy. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. If it's 126 mg/dL (7 mmol/L) or higher on two separate tests, you have diabetes.</li>
+						</ul>
+						<p>If you're diagnosed with diabetes, your provider may also run blood tests. These will check for autoantibodies that are common in type 1 diabetes. The tests help your provider decide between type 1 and type 2 diabetes when the diagnosis isn't certain. The presence of ketones — byproducts from the breakdown of fat — in your urine also suggests type 1 diabetes, rather than type 2.</p>
+						<h3 style="color: rgb(51, 44, 44);"><strong>After the diagnosis</strong></h3>
+						<p>You'll regularly visit your provider to talk about managing your diabetes. During these visits, the provider will check your A1C levels. Your target A1C goal may vary depending on your age and various other factors. The American Diabetes Association generally recommends that A1C levels be below 7%, or an average glucose level of about 154 mg/dL (8.5 mmol/L).</p>
+						<p>A1C testing shows how well the diabetes treatment plan is working better than daily blood sugar tests. A high A1C level may mean you need to change the insulin amount, meal plan or both.</p>
+						<p>Your provider will also take blood and urine samples. They will use these samples to check cholesterol levels, as well as thyroid, liver and kidney function. Your provider will also take your blood pressure and check the sites where you test your blood sugar and deliver insulin.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-2">
+						<h2 class="section-heading" style="color: #198754;">Type 2 Diagnosis</h2>
+						<p>Type 2 diabetes is usually diagnosed using the glycated hemoglobin (A1C) test. This blood test indicates your average blood sugar level for the past two to three months. Results are interpreted as follows:</p>
+						<ul>
+							<li>Below 5.7% is normal</li>
+							<li>5.7% to 6.4% is diagnosed as prediabetes.</li>
+							<li>6.5% or higher on two separate tests indicates diabetes.</li>
+						</ul>
+						<p>If the A1C test isn't available, or if you have certain conditions that interfere with an A1C test, your health care provider may use the following tests to diagnose diabetes:</p>
+						<p><strong>Random blood sugar test.</strong> Blood sugar values are expressed in milligrams of sugar per deciliter (mg/dL) or millimoles of sugar per liter (mmol/L) of blood. Regardless of when you last ate, a level of 200 mg/dL (11.1 mmol/L) or higher suggests diabetes, especially if you also have symptoms of diabetes, such as frequent urination and extreme thirst.</p>
+						<p><strong>Fasting blood sugar test</strong> A blood sample is taken after you haven't eaten overnight. Results are interpreted as follows:</p>
+						<ul>
+							<li>Less than 100 mg/dL (5.6 mmol/L) is considered healthy.</li>
+							<li>100 to 125 mg/dL (5.6 to 6.9 mmol/L) is diagnosed as prediabetes</li>
+							<li>126 mg/dL (7 mmol/L) or higher on two separate tests is diagnosed as diabetes.</li>
+						</ul>
+						<p><strong>Oral glucose tolerance test. </strong> This test is less commonly used than the others, except during pregnancy. You'll need to not eat for a certain amount of time and then drink a sugary liquid at your health care provider's office. Blood sugar levels then are tested periodically for two hours. Results are interpreted as follows:</p>
+						<ul>
+							<li>Less than 140 mg/dL (7.8 mmol/L) after two hours is considered healthy</li>
+							<li>140 to 199 mg/dL (7.8 mmol/L and 11.0 mmol/L) is diagnosed as prediabetes.</li>
+							<li>200 mg/dL (11.1 mmol/L) or higher after two hours suggests diabetes.</li>
+						</ul>
+						<p><strong>Screening</strong> The American Diabetes Association recommends routine screening with diagnostic tests for type 2 diabetes in all adults age 35 or older and in the following groups:</p>
+						<ul>
+							<li>People younger than 35 who are overweight or obese and have one or more risk factors associated with diabetes.</li>
+							<li>Women who have had gestational diabetes.</li>
+							<li>People who have been diagnosed with prediabetes.</li>
+							<li>Children who are overweight or obese and who have a family history of type 2 diabetes or other risk factors.</li>
+						</ul>
+						<h3 style="color: rgb(53, 46, 46);"><strong>After a diagnosis</strong></h3>
+						<p>If you're diagnosed with diabetes, your health care provider may do other tests to distinguish between type 1 and type 2 diabetes because the two conditions often require different treatments.</p>
+						<p>Your health care provider will test A1C levels at least two times a year and when there are any changes in treatment. Target A1C goals vary depending on age and other factors. For most people, the American Diabetes Association recommends an A1C level below 7%.</p>
+						<p>You also receive tests to screen for complications of diabetes and other medical conditions.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-3">
+							<h2 class="section-heading" style="color: #198754;">gestational diabetes</h2>
+						<p>If you're at average risk of gestational diabetes, you'll likely have a screening test during your second trimester — between 24 and 28 weeks of pregnancy.</p>
+						<p>If you're at high risk of diabetes — for example, if you're overweight or obese before pregnancy; you have a mother, father, sibling or child with diabetes; or you had gestational diabetes during a previous pregnancy — your health care provider may test for diabetes early in pregnancy, likely at your first prenatal visit.</p>
+						<h3 style="color: rgb(46, 42, 42);"><strong>Routine screening for gestational diabetes</strong></h3>
+						<p><strong>Screening tests may vary slightly depending on your health care provider, but generally include:</strong></p>
+						<ul>
+							<li><strong>Initial glucose challenge test</strong> You'll drink a syrupy glucose solution. One hour later, you'll have a blood test to measure your blood sugar level. A blood sugar level of 190 milligrams per deciliter (mg/dL), or 10.6 millimoles per liter (mmol/L), indicates gestational diabetes.</li>
+							<li><strong>Follow-up glucose tolerance testing.</strong> This test is similar to the initial test — except the sweet solution will have even more sugar and your blood sugar will be checked every hour for three hours. If at least two of the blood sugar readings are higher than expected, you'll be diagnosed with gestational diabetes.</li>
+						</ul>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-8">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-glasses-alt"></i> Questions to ask Heathcare Team</h1>
+					    <section class="docs-intro">
+						    <p>.</p>
+							<p>.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-8-1">
+						<h2 class="section-heading" style="color: #198754;">Type 1 & 2 Diabetes</h2>
+						<p>Before any appointment with a member of your treatment team, make sure you know whether there are any restrictions, such as not eating or drinking before taking a test. Questions that you should regularly talk about with your health care provider or other members of the team include</p>
+						<ul>
+							<li>How often do I need to monitor my blood sugar, and what is my target range?</li>
+							<li>What changes in my diet would help me better manage my blood sugar?</li>
+							<li>What is the right dosage for prescribed medications?</li>
+							<li>When do I take the medications? Do I take them with food?</li>
+							<li>How does management of diabetes affect treatment for other conditions? How can I better coordinate treatments or care?</li>
+							<li>When do I need to make a follow-up appointment?</li>
+							<li>Under what conditions should I call you or seek emergency care?</li>
+							<li>Are there brochures or online sources you recommend?</li>
+							<li>Are there resources available if I'm having trouble paying for diabetes supplies?</li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-8-2">
+						<h2 class="section-heading" style="color: #198754;">Gestational Diabetes</h2>
+						<p>Some basic questions to ask your health care provider include:</p>
+						<ul>
+							<li>What can I do to help control my condition?</li>
+							<li>Can you recommend a registered dietitian or certified diabetes care and education specialist who can help me plan meals, an exercise program and coping strategies?</li>
+							<li>Will I need medication to control my blood sugar?</li>
+							<li>What symptoms should prompt me to seek medical attention?</li>
+							<li>Are there brochures or other printed materials I can take? What websites do you recommend?</li>
+						</ul>
+					</section><!--//section-->
+					
+					
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-9">
+				    <header class="docs-header">
+					    <h1 class="docs-heading" style="color: #28b76b;"><i class="fas fa-lightbulb"></i> FAQs</h1>
+					    <section class="docs-intro">
+						    <p>.</p>
+							<p>.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-9-1">
+						<h2 class="section-heading" style="color: #198754;">\Questions : <small>\</small></h2>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>What should my blood sugar be?</h5>
+						<p>The American Diabetes Association recommends a blood glucose range of 80-130 before meals and less than 180 about 2 hours after a meal. This range should place your A1c under 7.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>What is an A1c?</h5>
+						<p>A Hemoglobin A1c is a 2-3 month average of your blood sugars. This result gives you a good idea of how well your diabetes is being managed/controlled. The American Diabetes Association recommends an A1c of less than 7 to keep the risk of complications low</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>What can I eat if I have diabetes?</h5>
+						<p>You can eat just about anything you want. It is about knowing proper portion sizes and how much you are putting on your plate. A dietitian can help you learn to count carbohydrates and with meal planning that is specific for you.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>Why does it matter if my blood sugar is 120 or 200?</h5>
+						<p>It is very important to keep your blood sugar level under control. When your blood sugar level is high, it can cause damage in your veins and arteries. This damage could lead to complications later such as heart attacks, strokes, kidney disease, neuropathies, vision problems, etc.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>What foods have carbohydrates?</h5>
+						<p>Fruits, starchy vegetables, milk, yogurt, rice, cereals, bread and other grains all have carbs and give you important nutrients. Many snack foods, such as pretzels, chips and popcorn, have carbs. Sweets, including regular soda, cakes, candy and cookies, also contain carbohydrates. Be sure to check the nutrition label on each food item to determine carbohyrdate content.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>Do I need to follow a low carb diet?</h5>
+						<p>Carbohydrates are an important part of a healthy diet. With diabetes, watching portion sizes and getting most of your carbs from fruits, vegetables, whole grains and low fat milk and yogurt is key. Besides counting carbs, people with diabetes can also benefit from eating lower fat, high fiber foods and just enough calories to maintain a healthy weight.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle me-1"></i>If it is sugar free, I can eat as much as I want, right?</h5>
+						<p>Sugar free foods can be part of a healthy meal plan in small amounts. Keep in mind though that some of these foods still have carbs (in the form of other sweeteners such as sorbitol, isomalt, and mannitol) and may affect your blood glucose levels. Many sugar free foods have calories and carbohydrates and lots of fat. Make sure you read the nutrition labels.</p>
+					</section><!--//section-->
+					
+					
+			    </article><!--//docs-article-->
+
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+				        
+			            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="#" >Team Hawks</a> Your Good Health</small>
+				        <ul class="social-list list-unstyled pt-4 mb-0">
+						    <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+				        </ul><!--//social-list-->
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+   
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script> 
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="assets/js/docs.js"></script> 
+
+</body>
+</html> 
+

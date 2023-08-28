@@ -1,0 +1,16 @@
+<div class="main">
+   <a href="./covid.html"><button style="align-self: center; align-items: center; background: linear-gradient(to right, #240b36, #c31432); justify-content: center; width: 180px; height: 50px; border: none; 
+                            font-size: 1.3rem; color: white; cursor: pointer; border-radius: 0 25px; position: relative; transition: all .6s; ">
+    Back
+   </button></a>
+
+   <a href="https://www.google.com/"><button style="align-self: center; align-items: center; background: linear-gradient(to right, #240b36, #c31432); justify-content: center; width: 180px; height: 50px; border: none; 
+                                   font-size: 1.3rem; color: white; cursor: pointer; border-radius: 0 25px; position: relative; transition: all .6s; ">
+    Click Me
+    </button></a>
+                    
+     <a href="#"><button style="align-self: center; align-items: center; background: linear-gradient(to right, #240b36, #c31432); justify-content: center; width: 180px; height: 50px; border: none; 
+                    font-size: 1.3rem; color: white; cursor: pointer; border-radius: 0 25px; position: relative; transition: all .6s; " onclick="window.print()" onmouseover="this.style.color='#12c736';" onmouseout="this.style.color='white';">
+      Print
+      </button></a>
+</div>
